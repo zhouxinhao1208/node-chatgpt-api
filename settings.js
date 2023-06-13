@@ -41,11 +41,11 @@ export default {
         // Necessary for some people in different countries, e.g. China (https://cn.bing.com)
         host: '',
         // The "_U" cookie value from bing.com
-        userToken: '',
+        userToken: '1Ma9YRSVM8cm9wfxt0Y_tD__ioDQc6yqQtZyLOh0_wpXbL3qjoSTEEiwJXB0E_55lbJzTvvdvlUXzDwZTX6wuSB6iUED7gUAgJM_hB2iJ3Hy5G2Xh7tRmaimJyzNmc-3uF17DYcLIidxYK5oWoi5F31LIJPIrWZ2kCWolnpLQLpea-9LEX3HHdSL1-RBzO5XypCo1wSWzL0vDtCZlWMHpwA',
         // If the above doesn't work, provide all your cookies as a string instead
         cookies: '',
         // A proxy string like "http://<ip>:<port>"
-        proxy: '',
+        proxy: 'http://127.0.0.1:7890',
         // (Optional) Set 'x-forwarded-for' for the request. You can use a fixed IPv4 address or specify a range using CIDR notation,
         // and the program will randomly select an address within that range. The 'x-forwarded-for' is not used by default now.
         // xForwardedFor: '13.104.0.0/14',
@@ -105,6 +105,6 @@ export default {
     // Options for the CLI app
     cliOptions: {
         // (Optional) Possible options: "chatgpt", "bing".
-        // clientToUse: 'bing',
+        clientToUse: 'bing',
     },
 };
